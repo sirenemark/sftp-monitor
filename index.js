@@ -50,6 +50,9 @@ async function run() {
 
   const googleCreds = JSON.parse(process.env.GOOGLE_CREDS_JSON);
 
+  console.log(googleCreds.client_email);
+  console.log(googleCreds.private_key.substring(0, 40));
+  
   const serviceAccountAuth = new JWT({
     email: googleCreds.client_email,
     key: googleCreds.private_key,
