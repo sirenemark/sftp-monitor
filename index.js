@@ -47,7 +47,15 @@ async function run() {
 
   const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
 
-  await doc.useServiceAccountAuth(creds);
+  console.log('Authenticating Google Sheets...');
+
+  await doc.auth.useServiceAccountAuth({
+    client_email: creds.client_email,
+    private_key: creds.private_key,
+  });
+
+  console.log('Google Sheets authenticated');
+  
   await doc.loadInfo();
 
   const sheet = doc.sheetsByIndex[0];
