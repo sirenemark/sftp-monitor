@@ -15,15 +15,22 @@ const CONFIG = {
 
 async function run() {
 
+  console.log('Connecting to SFTP...');
+
   await sftp.connect({
     host: CONFIG.host,
     port: CONFIG.port,
     username: CONFIG.username,
-    password: CONFIG.password
+    password: CONFIG.password,
+    readyTimeout: 20000
   });
+
+  console.log('Connected to SFTP');
 
   const files = (await sftp.list(CONFIG.remoteDir))
     .sort((a, b) => b.modifyTime - a.modifyTime);
+
+  console.log(`Found ${files.length} files`);
 
   const now = Date.now();
   const DAY_MS = 24 * 60 * 60 * 1000;
