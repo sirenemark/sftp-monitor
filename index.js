@@ -45,14 +45,20 @@ async function run() {
     return modified >= (now - DAY_MS);
   });
 
-  const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
-
   console.log('Authenticating Google Sheets...');
 
-  await doc.auth.useServiceAccountAuth({
-    client_email: creds.client_email,
-    private_key: creds.private_key,
+  const { JWT } = require('google-auth-library');
+
+  const serviceAccountAuth = new JWT({
+    email: creds.client_email,
+    key: creds.private_key,
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
+
+  const doc = new GoogleSpreadsheet(
+    process.env.SHEET_ID,
+    serviceAccountAuth
+  );
 
   console.log('Google Sheets authenticated');
   
