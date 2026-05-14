@@ -32,7 +32,7 @@ async function run() {
   console.log(`Found ${files.length} files`);
 
   const now = Date.now();
-  const DAY_MS = 24 * 60 * 60 * 1000;
+  const DAY_MS = 5 * 60 * 1000;
 
   const recentFiles = files.filter(file => {
 
