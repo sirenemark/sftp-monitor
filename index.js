@@ -48,9 +48,11 @@ async function run() {
 
   const { JWT } = require('google-auth-library');
 
+  const googleCreds = JSON.parse(process.env.GOOGLE_CREDS_JSON);
+
   const serviceAccountAuth = new JWT({
-    email: process.env.GOOGLE_CLIENT_EMAIL,
-    key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+    email: googleCreds.client_email,
+    key: googleCreds.private_key,
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
 
