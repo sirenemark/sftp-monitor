@@ -1,7 +1,7 @@
 const SftpClient = require('ssh2-sftp-client');
 const nodemailer = require('nodemailer');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const creds = require('./google-creds.json');
+const creds = require('./google-creds-2.json');
 
 const sftp = new SftpClient();
 
