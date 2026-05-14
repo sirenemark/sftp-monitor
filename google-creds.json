@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sftp-monitor-496307",
+  "private_key_id": "8b057a5e30e56a12d784d37ae5f45a1a6f107f38",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDEIx2IeU/e3L2U\n1MfY3NaBvKFRprijGtXvcACoIx5b0mZeyTuThimxA03Mf5IjFDJHxPHtR2E05ZT1\nrKDGVe2yJH3igJSVBBjkt1QFih0MkW+9MnrFQkvllc82XW4SMVfVtbB1j6h6BsFK\nEJMGD07DQ0i9hBvFtVKVBwncAhj0FuPpYhCjtgERUOPWaZNvftglu7O8k1qNpqYc\ngOW8Ad0Tm/ptEe1H54r7i0IzVGNoroCNOU5Usp3+GIB3lV3nsiQIK3ELU9llGddd\nC0tIxicbb+OdOtIBICal/3eG4CFOueCLAsPXfCf6xA3diQdL8JjOoLUiLyjv/ZW/\nQPEStGtJAgMBAAECggEACaNiHaU8eAqn5ErqgS0k+14eHUmQlC9K6Qe7eIe1Q7Tc\no/bGjzLOFK1BYvW35DJnYCB89PiHfdZ0UfhINEbftdvWNc20v3fik0axAc6uK8Jv\n17/FybC+0wrgEl9X+9vh4ZYalERZdpmjYPTcjLUu3SiOyAVYaghFhR5B7UZLHJ93\nUJg2BfOUKrrutLNz/znVH+Ym86EFaMu34kt7Kk42KWFnQ2zb6mYMUR6nhas1Eczc\n/F2XOEcUCW9T6Yt+zs7FeZUWxr/SgeySwA3reNucj6M4F1DXOlI3fW8Euj7YuQEN\n9+VO4A9e/XeE4lEVT/gpCZqGCnS8zsqGf2Y4okBMQQKBgQDiJqwADYc4ql11+6fj\nsBPPUtpfjdoTYXYCfqbqBtkHvl+sq5Fx1PwqBKEVc4nalIOXDHr04AgMDudgLNBL\n2N3qBue3tCojPHX/Cm9r9yBYs8I3+b5MkID9Y+dlzFF7ODD3G7vv0wAaRKyiR2PY\n80JHI6zPlAz/jNwqykVYeylZMQKBgQDeBlDnRz2E2aXuQuB5M+zk/qhYiDuFRPsg\np49iYw4qst7Z1QwATBdR7Wr6chIY02DIvAme0mbl/qnif4Tu5h+Z4eZ+F80LbsjB\nLkShDjuc8SKppgkY4eaE5imLXk1jr3P33b8yBpx7V4lXpbpf+/UGhy1ROiEbeVyJ\nNY04czitmQKBgGAMQJy9IiME6DDFsuZWz/MLo0dV/bqhd/dTRxy5z88kIYo6S8lm\nxboqwSdVLMUysjiiyk3aIFDOu6HzJnwwHP/Z8uvojsTsVsj865mVGZ3SqrgPT61A\n6ie0GID5p9mHYfRxSP5wROjjJda+Lz/jANEp66k1ndejQZbC1XTgygzhAoGANNNZ\n4n1PxNEoKrVcxVm2bpGsqkvXpZDRE2bqtaUN1Nj0Lu4CyftQvRx5DJeheKiqaXhb\n7Z7v/p8F+q8OiOzV7f4SokO1dJfqShRhHdTOGDxDXAv2NCZje5Frpw5L6YDwXbQz\n7oomJy6frevvmTDQjroQ7TegcvIAM2E7dYfsn1kCgYAPqm7EmPpcjmOZza9PlWwM\nRDJ/9BenPRsfvncIfMPWHhtp7KhK0Hkz1ic37YivpAQs+F1Hlh6kPyCVj/Q++H4+\nN9bLiTFKKJYyhfHUg9/mZ5kwmhWdmxn1dfevpMfwXCSwlfji/23vd23ZPQzI5YZh\nkm6LSrBVOsi6RqEW0t8S4Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sftp-monitor@sftp-monitor-496307.iam.gserviceaccount.com",
+  "client_id": "106745731134596766169",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sftp-monitor%40sftp-monitor-496307.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
