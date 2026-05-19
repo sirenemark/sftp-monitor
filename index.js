@@ -99,7 +99,6 @@ async function run() {
 
   } else {
 
-    /*
     subject = `SFTP Upload Report (${newFiles.length} files)`;
 
     body = 'New uploads:\n\n';
@@ -107,7 +106,6 @@ async function run() {
     newFiles.forEach(f => {
       body += `- ${f.name}\n`;
     });
-    */
 
     console.log('Uploads detected — no alert sent.');
 
